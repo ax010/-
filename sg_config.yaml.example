@@ -14,10 +14,10 @@ headlines_file: 'headlines/headlines_sample.csv'
 # Default: 'redis', options: 'redis', 'file'.
 # If it's 'file', there's creation of `./output/sentiments_<asset>.csv`
 # File's line format: `"headline collected source","headline collected timestamp (ms)","headline published timestamp (ms)","headline","sentiment"`
-output_option: 'redis'
+output_option: 'file'
 
 # OpenAI
-openai_api_key: ''
+openai_api_key: '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'
 reqs_min: 3 # maximum requests per minute, default is 3 for free OpenAI accounts.
 
 # Redis
